@@ -39,3 +39,15 @@ body {
 .dark {
     z-index: -1;
 }
+
+@media screen and(max-width: 820px) {
+    .text-wrap {
+        font-size: 3.5rem;
+    }
+}
+
+@media screen and(max-width: 425px) {
+    .text-wrap {
+        font-size: 2rem;
+    }
+}
